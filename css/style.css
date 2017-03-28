@@ -1,0 +1,484 @@
+/*   Main CSS File   */
+/* font-family: 'Quicksand', sans-serif;
+font-family: 'Nunito', sans-serif; */
+/* __________________________________________________________
+
+- BASE
+- HEADER
+- JUMBOTRON
+- JOB-SPOTLIGHT
+- BE-PART
+- THREE-SHIFTS
+- JOB-REQUIR
+- FOOTER
+
+__________________________________________________________ */
+
+
+
+/* BASE
+__________________________________________________________ */
+* {
+	margin: 0;
+	padding: 0;
+	right: 0;
+}
+::selection {
+
+}
+html {
+
+}
+body {
+
+}
+p,h1,h2,h3,h4,span {
+	font-family: 'Quicksand', sans-serif;
+}
+a {
+	font-family: 'Quicksand', sans-serif;
+}
+p {
+	font-size: 16px;
+	line-height: 25px;
+	color: #757575;
+}
+h1 {
+	font-size: 64px;
+	letter-spacing: -5px;
+	margin-bottom: 25px;
+}
+h2 {
+	font-size: 48px;
+	font-weight: 300;
+	text-align: center;
+	margin: 60px 0px;
+}
+h3 {
+	font-size: 22px;
+}
+h4 {
+
+}
+.image-sprite {
+	background-image: url(../img/image-sprite.png);
+	display: block;
+}
+.btn {
+	color: #f8576e;
+	border: none;
+	background: #fff;
+	border-radius: 5px;
+	padding: 10px 40px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17px;
+	font-weight: 600;
+	-webkit-box-shadow:  0px 6px 16px rgba(153,46,61,0.25);
+	box-shadow:  0px 6px 16px rgba(153,46,61,0.25);
+	margin-top: 20px;
+}
+
+/* HEADER
+__________________________________________________________ */
+header.header {
+	height: 70px;
+	-webkit-box-shadow: 10px 20px 10px #000;
+	box-shadow: 10px 20px 10px #000;
+}
+	header .logos {
+		margin-top: 18px;
+	}
+/* JUMBOTRON
+__________________________________________________________ */
+section.jumbotron {
+	background: url(../img/header-bg.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.jumbotron {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	section.jumbotron h1,
+	section.jumbotron h3,
+	section.jumbotron p {
+		color: #fff;
+	}
+	.jumbotron h3 {
+		margin: 30px 0px 10px 0px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.jumbotron p {
+		font-size: 16px;
+		line-height: 25px;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 300;
+	}
+
+
+/* JOB-SPOTLIGHT
+__________________________________________________________ */
+.job-spotlight-container {
+
+}
+		.job-spotlight-head {
+			width: 100%;
+		}
+		.job-spotlight h3 {
+			color: #757575;
+			font-size: 17px;
+			font-weight: 600;
+			text-transform: uppercase;
+			padding-top: 20px 0px;
+			padding: 20px 0px;
+			margin: 0;
+			margin-left: 70px;
+		}
+		.job-spotlight span.job-spotlight-image-1 {
+			width: 48px;
+			height: 46px;
+			background-position: 0 0;
+			float: left;
+			margin: 0px 0px 20px 0px;
+		}
+		.job-spotlight span.job-spotlight-image-2 {
+			width: 50px;
+			height: 46px;
+			background-position: -48px 0px;
+			float: left;
+			margin: 0px 20px 0px 0px;
+		}
+		.job-spotlight span.job-spotlight-image-3 {
+			width: 47px;
+			height: 46px;
+			background-position: -98px 0px;
+			float: left;
+			margin: 0px 20px 0px 0px;
+		}
+		.job-spotlight p {
+			clear: both;
+			padding: 20px;
+			font-family: 'Nunito', sans-serif;
+			font-weight: 300;
+		}
+.job-spotlight-item {
+	border-left: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0;
+	min-height: 320px;
+	border-radius: 10px 0px 0px 10px;
+}
+	.job-spotlight-item .job-spotlight-head {
+		border-radius: 10px 0px 0px 0px;
+	}
+	.job-spotlight-item-3 .job-spotlight-head {
+		border-radius: 0px 10px 0px 0px;
+	}
+.job-spotlight-item-2 {
+	border: 1px solid #e1e1e1;
+	padding: 0;
+	min-height: 320px;	
+}
+.job-spotlight-item-3 {
+	border-right: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	padding: 0;
+	min-height: 320px;
+	border-radius: 0px 10px 10px 0px;
+}
+	.job-spotlight-head {
+		background: #fafafa;
+		border-bottom: 1px solid #e1e1e1;
+		padding: 20px;
+	}
+/* BE-PART
+__________________________________________________________ */
+section.be-part {
+	padding-top: 50px;
+}
+section.be-part h2 {
+	color: #212121;
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background: #fafafa;
+}
+
+table.table {
+	font-family: 'Quicksand', sans-serif;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	display: block;
+}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 20px 9px;
+	}
+table.table .number {
+	font-size: 20px;
+	color: #00aef3;
+	text-align: center;
+	vertical-align: middle;
+}
+table.table .name p {
+	font-size: 17px;
+	font-weight: 600;
+	margin: 0;
+	text-transform: uppercase;
+	color: #212121;
+}
+	table.table .name span {
+		font-size: 16px;
+		color: #757575;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 300;
+	}
+table.table span.new-ico {
+	width: 41px;
+	height: 40px;
+	background-position: -145px 0;
+	margin: 0 auto;
+}
+table.table .sept {
+	font-size: 16px;
+	color: #757575;
+	vertical-align: middle;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
+table.table .labels {
+	vertical-align: middle;
+}
+	table.table .labels span {
+		font-size: 14px;
+		color: #757575;
+		border-radius: 50%;
+		border: 1px solid #b5b5b5;
+		width: 30px;
+		height: 30px;
+		display: block;
+		float: left;
+		text-align: center;
+		padding-top: 4px;
+		margin-right: 3px;
+	}
+		table.table .labels span.active {
+			background: #00aef3;
+			border-color: #00aef3;
+			color: #fff;
+		}
+.table>tbody>tr {
+	position: relative;
+}
+/* .table>tbody>tr:after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background: #000;
+	opacity: 0.4;
+	content: '';
+	-webkit-box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.1);
+	background: #fff;
+} */
+.table-striped>tbody>tr {
+	background: #fafafa;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+.table-bordered>tbody>tr>td:first-child {
+	padding-left: 12px;
+}
+.table-bordered>tbody>tr>td:last-child {
+	padding-right: 10px;
+}
+	.table-bordered>tbody>tr:last-child td {
+		border-bottom: 0;
+	}
+		.table-bordered>tbody>tr:last-child td:first-child {
+			border-radius: 0px 0px 0px 10px;
+		}
+		.table-bordered>tbody>tr:last-child td:last-child {
+			border-radius: 0px 0px 10px 0px;
+		}
+	.table-bordered>tbody>tr:first-child td {
+		border-top: 0;		
+	}
+		.table-bordered>tbody>tr:first-child td:first-child {
+			border-radius: 10px 0px 0px 0px;
+		}
+		.table-bordered>tbody>tr:first-child td:last-child {
+			border-radius: 0px 10px 0px 0px;
+		}
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background: #fff;
+}
+.table-hover>tbody>tr:hover {
+	background: #eaeaea;
+}
+/* THREE-SHIFTS
+__________________________________________________________ */
+section.three-shifts {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+section.three-shifts h2 {
+	text-align: center;
+	font-size: 20px;
+	color: #212121;
+	font-weight: 600;
+}
+section.three-shifts p {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #212121;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300;
+}
+	section.three-shifts span.tree-shifts-image {
+		height: 50px;
+		margin: 0px auto 30px;
+	}
+		section.three-shifts span.tree-shifts-image-1 {
+			width: 48px;
+			background-position: -186px 0px;
+		}
+		section.three-shifts span.tree-shifts-image-2 {
+			width: 49px;
+			background-position: -234px 0px;
+		}
+		section.three-shifts span.tree-shifts-image-3 {
+			width: 48px;
+			background-position: -283px 0px;
+		}
+/* JOB-REQUIR
+__________________________________________________________ */
+section.job-requir {
+	background: url(../img/job-require-bg.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px 0px 100px 0px;
+}
+	section.job-requir h2 {
+		color: #fff;
+	}
+	section.job-requir .list-block {
+		padding: 30px 100px;
+		border-radius: 10px;
+		background: #fff;
+		-webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16) ;
+		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.16) ;
+	}	
+		section.job-requir .list-block h3 {
+			color: #757575;
+			text-transform: uppercase;
+			font-size: 17px;
+			font-weight: 600;
+		}
+			section.job-requir .list-block ul {
+				margin-top: 40px;
+			}
+			section.job-requir .list-block li {
+				font-size: 16px;
+				color: #212121;
+				padding: 2px 0px 3px 40px;
+				position: relative;
+				list-style: none;
+				margin: 20px 0px;
+				font-family: 'Nunito', sans-serif;
+				font-weight: 300;
+			}
+				section.job-requir .list-block li:after {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: block;
+					width: 26px;
+					height: 26px;
+					background-image: url(../img/image-sprite.png);
+					background-position: -331px 0;
+				}
+/* FOOTER
+__________________________________________________________ */
+footer {
+	margin: 0;
+	padding: 100px 0px;
+	background:  #4e6671 url(../img/footer-bg.png) 0 0 repeat;
+	color: #fff;
+}
+	footer h2 {
+		margin: 0px 0px 30px 0px;
+		text-align: left;
+		font-size: 36px;
+		font-weight: 600;
+	}
+	footer h3 {
+		font-size: 24px;
+		color: #fff;
+		margin: 0px 0px 30px 0px;
+		font-weight: 600;
+	}
+	footer ul.social {
+		float: left;
+	}
+	footer ul.social li.soc-ico {
+		display: block;
+		width: 30px;
+		height: 30px;
+		float: left;
+		-webkit-transition:  opacity 0.3s ease;
+		-o-transition:  opacity 0.3s ease;
+		transition:  opacity 0.3s ease;
+	}
+		footer ul.social li.soc-ico:hover {
+			opacity: 0.6;
+			filter: alpha(opacity=0.6);
+		}
+		footer ul.social li.soc-ico-1 {
+			background-position: -357px 0;
+			margin-right: 20px;
+		}
+		footer ul.social li.soc-ico-2 {
+			background-position: -387px 0;
+		}
+		footer ul.social li.soc-ico a {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+
+	footer p {
+		font-size: 14px;
+		font-weight: 400;
+		color: #fff;
+		font-family: 'Nunito', sans-serif;
+		font-weight: 300;
+	}
+	footer p.copyright {
+		margin-top: 100px;
+		clear: both;
+		float: left;
+		font-size: 12px;
+	}
+footer .footer-nav {
+	list-style: none;
+	font-size: 24px;
+	font-weight: 500;
+}
+	footer .footer-nav a {
+		color: #fff;
+		margin: 20px 0px;
+	}

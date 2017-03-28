@@ -1,0 +1,174 @@
+/*   Media Queries File   */
+
+/* __________________________________________________________
+
+- BASE
+- HEADER
+- SECTION #1
+- FOOTER
+
+__________________________________________________________ */
+
+
+
+/* BASE
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* HEADER
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+	section.jumbotron h1, section.jumbotron h3, section.jumbotron p {
+		text-align: center;
+	}
+	.btn {
+		display: table;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 60px;
+	}
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* JUMBOTRON
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* JOB-SPOTLIGHT
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+	.job-spotlight-item,
+	.job-spotlight-item-2,
+	.job-spotlight-item-3 {
+		border: none;
+	}
+	.job-spotlight-item .job-spotlight-head {
+		border-radius: 0;
+		border-top: 1px solid #e1e1e1;
+	}
+	.job-spotlight-item-2 .job-spotlight-head {
+		border-top: 1px solid #e1e1e1;
+	}
+	.job-spotlight-item-3 .job-spotlight-head {
+		border-radius: 0;
+		border-top: 1px solid #e1e1e1;
+	}
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* BE-PART
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* THREE-SHIFTS
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+	section.three-shifts span.tree-shifts-image-1,
+	section.three-shifts span.tree-shifts-image-2,
+	section.three-shifts span.tree-shifts-image-3 {
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* JOB-REQUIR
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+	section.job-requir .list-block {
+		padding: 30px;
+	}
+}
+@media (max-width: 360px) { 
+
+}
+
+
+/* FOOTER
+__________________________________________________________ */
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+	ul.footer-nav {
+		margin: 50px 0px;
+	}
+	footer p.copyright {
+		margin-top: 50px;
+	}
+}
+@media (max-width: 360px) { 
+
+}
